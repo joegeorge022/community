@@ -7,11 +7,11 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #222;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #f5faff;
 }
 
 main {
@@ -37,9 +37,9 @@ nav {
 
 header,
 footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
-  background-color: #f8f1f1;
+  border-top: 5px solid #4682b4;
+  border-bottom: 5px solid #4682b4;
+  background-color: #e6f0fa;
   padding: 20px;
   text-align: center;
   margin-bottom: 20px;
@@ -47,7 +47,7 @@ footer {
 
 h1, h2 {
   font-family: 'Georgia', 'Times New Roman', serif;
-  color: #8a4546;
+  color: #2b5d8c;
 }
 
 h1 {
@@ -58,39 +58,39 @@ h1 {
 
 h2 {
   font-size: 1.8em;
-  border-bottom: 2px solid #a66;
+  border-bottom: 2px solid #4682b4;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
 
 a {
-  color: #c83737;
+  color: #1e4e8c;
   text-decoration: none;
   font-weight: bold;
   padding: 2px 4px;
-  border-bottom: 1px dotted #c83737;
+  border-bottom: 1px dotted #1e4e8c;
   transition: all 0.3s ease;
 }
 
 a:hover {
   color: white;
-  background-color: #c83737;
+  background-color: #1e4e8c;
   border-radius: 3px;
-  border-bottom: 1px solid #c83737;
+  border-bottom: 1px solid #1e4e8c;
 }
 
 a:active {
-  background-color: #8a4546;
+  background-color: #163b63;
 }
 
 a:visited {
-  color: #8a4546;
-  border-bottom-color: #8a4546;
+  color: #163b63;
+  border-bottom-color: #163b63;
 }
 
 a:visited:hover {
   color: white;
-  background-color: #8a4546;
+  background-color: #163b63;
 }
 
 nav ul {
@@ -105,16 +105,16 @@ nav li {
 nav a {
   display: block;
   padding: 10px;
-  background-color: #f8f1f1;
-  border: 1px solid #a66;
+  background-color: #e6f0fa;
+  border: 1px solid #4682b4;
   border-radius: 5px;
   text-align: center;
-  border-bottom: 3px solid #a66;
+  border-bottom: 3px solid #4682b4;
   transition: 0.2s ease;
 }
 
 nav a:hover {
-  background-color: #a66;
+  background-color: #4682b4;
   color: white;
   transform: translateY(-2px);
 }
@@ -133,7 +133,7 @@ footer {
   text-align: center;
   font-size: 0.9em;
   margin-top: 40px;
-  color: #666;
+  color: #555;
 }
 
 @media (max-width: 900px) {
